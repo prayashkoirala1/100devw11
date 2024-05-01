@@ -1,0 +1,245 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #161f2a;
+  font-family: 'Roboto', sans-serif;
+}
+.main_block{
+  height: 300px;
+  border: none;
+  width: 100%;
+  float: left;
+}
+.inline_list li{
+  display: inline;
+  margin: 10px;
+}
+.inline_list li:nth-last-child(2){
+  padding:0 35%;
+}
+
+#donate{
+  color: #66768a;
+  border:solid 2px white;
+  background-color: white;
+  border-radius: 10%;
+  padding: 0.5%;
+  margin-right: 3.1%;
+}
+
+.inline_list li a, main a{
+  text-decoration: none;
+  color: white;
+}
+.mb1 h1{
+  padding-top: 7.5%;
+  width:67%;
+  font-size: 3em;
+  margin: auto;
+}
+.mb1 p{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+.mb1 a,.mb1 span{
+  padding-bottom: 3%;
+}
+.mb1 img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mb1{
+  height: 600px;
+  color: white;
+  background-color: #66768a;
+  text-align: center;
+}
+#bbi{
+  color: #161f2a;
+  display: block;
+  width: 25%;
+  padding: 5% 6%;
+  margin: 1.5% 0 0 38.5%;
+}
+.mb2{
+  background-color: #fff;
+  height: 400px;
+}
+.mb2 h2{
+  padding-top: 7.5%;
+  width:6%;
+  font-size: 2em;
+  margin: auto;
+}
+.mb2 p{
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 7.5%;
+}
+.mb3{
+  height: 600px;
+  background-color: #dbdfe2;
+}
+.mb3 section{
+  width:50%;
+  border: none;
+  float: left;
+}
+.mb3 h3{
+  padding-top: 7.5%;
+  width:47%;
+  font-size: 1em;
+  text-align: center;
+  margin: auto;
+}
+
+.mb3 p{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 7.5%;
+}
+.mb3 img{
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.mb3 a{
+  text-decoration: none;
+  color: #161f2a;
+  margin: 0 42%;
+  padding: 1%;
+  border: 1px solid black;
+}
+.mb3 a#v{
+  text-decoration: none;
+  color: #161f2a;
+  margin: 0 44.5%;
+  padding: 1%;
+  border: 1px solid black;
+}
+.mb4{
+  background-color: #fff;
+  height: 400px;
+}
+.mb4 h2{
+  padding-top: 7.5%;
+  width:38%;
+  font-size: 2em;
+  margin: auto;
+}
+.mb4 p{
+  width: 42%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2.5%;
+}
+.mb4 a{
+  text-decoration: none;
+  color: #161f2a;
+  margin: 0 47.5%;
+  padding: 1%;
+  border: 1px solid black;
+}
+.a1,.a2{
+  margin-top: 1.5%;
+  color: white;
+  width: 50%;
+  border: none;
+
+}
+.a1{
+  float: left;
+}
+.a1 ul li{
+  list-style: none;
+}
+.a1 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.a2{
+  width:28%;
+  float: right;
+}
+.a2 address{
+  width:43%;
+  margin-top: 10%;
+  line-height: 200%;
+}
+.a2 h4{
+  width: 50%;
+}
+footer section{
+  color: white;
+  width: 90%;
+  height: 5%;
+  border: none;
+  clear: both;
+  padding-top: -15%;
+  float: left;
+  padding-left: 5%;
+
+}
+footer img{
+  float: left;
+  height: 10%;
+  margin-top: .2%;
+}
+#mail a{
+  text-decoration: none;
+  color: #fff;
+}
+.mb5{
+  background-color: #161f2a;
+  height: 320px;
+}
+hr{
+  clear: both;
+  margin-bottom: -1%;
+}
+#last{
+  float: right;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

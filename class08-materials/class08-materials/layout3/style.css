@@ -1,0 +1,164 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 50px;
+  border: none;
+  background-color: black;
+  padding-bottom: 5px;
+}
+header img{
+  width: 10%;
+  margin-top: 10px;
+  height: 30px;
+  object-fit:contain;
+}
+header a{
+  padding: 2% 1%;
+  text-decoration: none;
+  color: white;
+}
+.a{
+  color: white;
+  padding-top: 11%;
+  text-shadow: 1px 1px black;
+}
+.a1{
+  color: white;
+  padding-top: 3.5%;
+  text-shadow: 1px 1px black;
+}
+.a1 a, .a a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.a1 h3{
+  width: 75%;
+}
+.a1.e{
+  padding-top: 5.1%;
+}
+.bluetxt{
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: -13%;
+  margin-right: 13%;
+  width: 25%;
+}
+
+header a#ii{
+  padding-right: 7%;
+  padding-left: 2%;
+}
+header form{
+  display: inline-block;
+  padding-left: 4%;
+}
+.header2 {
+  margin-left: 1%;
+  height: 50px;
+  border: none;
+}
+#h21 {display:inline-block;margin-right:70%;} 
+#h22 {display:inline-block;} 
+#news{
+  clear: both;
+  margin-left: 1%;
+}
+.a{
+  width: 37%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 309px;
+  border: none;
+  float: left;
+  background: url("usis.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 1%;
+}
+.a1{
+  width: 30%;
+  margin: 0.2%;
+  height: 150px;
+  border: none;
+  float: left;
+}
+.a1.q{
+  background: url("q.jpg") no-repeat;
+  background-size: cover;
+}
+
+.a1.w{
+  background: url("w.jpg") no-repeat;
+  background-size: cover;
+}
+.a1.e{
+  background: url("e.jpg") no-repeat;
+  background-size: cover;
+}
+.a1.r{
+  background: url("r.jpg") no-repeat;
+  background-size: cover;
+}
+
+.a2{
+  margin-top: -1%;
+  margin-left: 1%;
+  width: 31.33%;
+  height: 240px;
+  border: none;
+  float: left;
+}
+.a2.t img, .a2.y img, .a2.u img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.a2 p{
+  margin-top: -2%;
+}
+.a2 span{
+  padding-top: -3%;
+}
+.a2 a{
+  text-decoration: none;
+  color: black;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

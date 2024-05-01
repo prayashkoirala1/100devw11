@@ -1,0 +1,220 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  @media all and (max-width: 500px){
+    body {
+      background-color: #f5f9fc;
+      color: #405668;
+    
+    }
+    header, footer, section{
+       border: none;
+    }
+    header{
+      border-bottom: #c4cbd1 1px solid;
+    }
+    .ul1{
+      display: none;
+      float: left;
+    }
+    .mobhead{
+      display: inline;
+      font-size: 3em;
+      border: none;
+    }
+    .mobhead span{
+      font-size: 1em;
+      margin-left: 5%;
+      margin-right: 15%;
+    }
+    .bluetxt{
+      text-align: center;
+      width: 15%;
+      background-color: #f5f9fc;
+      border: none;
+      color: #405668;
+    }
+    .mobhead h1{
+      font-size: 2em;
+      font-weight: 900;
+    }
+    .s40{
+      text-align: left;
+      margin: 5%;
+    }
+    .s40 span{
+      color: #c4cbd1;
+    }
+    .s40 input{
+      width: 100%;
+      margin-bottom: 5%;}
+    .s40 button{
+      width: 100%;
+      background-color: #405668;
+      color: #f5f9fc;
+    }
+    ::placeholder {
+      color: #c4cbd1;
+      opacity: 1; /* Firefox */
+    }
+    
+    ::-ms-input-placeholder { /* Edge 12 -18 */
+      color: #c4cbd1;
+    }
+    
+    .s60 img{
+      width: 100%;
+    }
+    .s25{
+      margin: 5%;
+    }
+    .s25 img, .s25 h4, .s25 a{
+      padding-left: 40%;
+    }
+    .s25 a{
+      text-decoration: none;
+      font-weight: 600;
+      color: #405668;
+    }
+    .s25 img{
+      padding-left: 43%;
+    }
+    /******************************************
+    /* LAYOUT
+    /*******************************************/
+    header {
+      
+    }
+    
+    footer {
+      margin: 5% 0;
+      padding: 5%;
+      background-color: white;
+    }
+  }
+  body {
+    background-color: #f5f9fc;
+    color: #405668;
+  }
+  header, footer, section{
+    border: solid 2px black;
+  }
+  .mobhead span{
+    display: none;
+  }
+  .mobhead{
+    width: 30%;
+    float: left;
+  }
+  header{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5.5%;
+  }
+  .ul1{
+    margin: 2.5% 0 0 0;
+    
+  }
+  .ul1 li {
+    display: inline;
+    border: solid 2px black;
+    margin: 0 1%;
+    float: left;
+  }
+  .ul1 li a{
+    text-decoration: none;
+    color: #405668;
+  }
+  .ul1 li:last-child{
+    margin-left: 30%;
+  }
+  .mobhead h1{
+    font-size: 2em;
+    font-weight: 900;
+    padding-left: 30%;
+  }
+  .s40{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 15%;
+    float: left;
+    font-size: larger;
+  
+  }
+  .s40 input{
+    width: 80%;
+    margin-bottom: 5%;
+    float: left;}
+  .s40 button{
+    width: 20%;
+    float: left;
+    background-color: #405668;
+    color: #f5f9fc;
+  }
+  .s40 p{
+    clear: both;
+  }
+  ::placeholder {
+    color: #c4cbd1;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #c4cbd1;
+  }
+  .s60{
+    width: 50%;
+    float: left;
+    height: 5%;
+  }
+  .s60 img{
+    width: 110%;
+  }
+  .s25{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 20%;
+    float: left;
+  }
+  .menu{
+    margin-left: 5%;
+  }
+  .s25 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #405668;
+  }
+  header,footer{
+    clear: both;
+  }
+  footer {
+    margin: 5% 0;
+    padding: 5%;
+    background-color: white;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  

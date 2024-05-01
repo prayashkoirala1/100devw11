@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+    header, footer{
+        height: 100px;
+        border: 3px solid black;
+    }
+    section{
+        height: 200px;
+        border: 3px solid black;
+    }
+}
+@media (min-width: 601px)and (max-width: 1000px){
+    header, footer{
+        height: 100px;
+        border: 3px solid black;
+        clear: both;
+    }
+    .i{
+        height: 200px;
+        width: 50%;
+        border: 3px solid black;
+        float: left;
+    }
+    .j{
+        height: 200px;
+        border: 3px solid black;
+        margin: 0 auto;
+        clear:both;
+    }
+}
+@media screen and (min-width: 1001px){
+    header, footer{
+        height: 100px;
+        border: 3px solid black;
+        clear: both;
+    }
+    section{
+        height: 200px;
+        width: 33.3333%;
+        border: 3px solid black;
+        float: left;
+    }
+    }

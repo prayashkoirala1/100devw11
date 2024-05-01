@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+header, footer{
+    height: 110px;
+    clear: left;
+}
+.f{
+    height: 416px;
+    width: 20%;
+    border: 2px solid black;
+    float: left;
+    border-right: none;
+    box-sizing: border-box;
+}
+.g{
+    height: 416px;
+    width: 40%;
+    border: 2px solid black;
+    float: left;
+    border-right: none;
+    box-sizing: border-box;
+}
+#y {
+    border-left: none;
+}

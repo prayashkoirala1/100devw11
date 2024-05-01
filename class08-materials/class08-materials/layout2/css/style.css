@@ -1,0 +1,120 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nolist{
+  list-style-type: none;
+
+}
+.nolist li a, h1 a{
+  text-decoration: none;
+  color: black;
+}
+.nolist.unique li{
+  border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+ width: 20%;
+ height:25%;
+ float: left;
+}
+header img{
+  width: 60%;
+  margin-left: 10%;
+}
+header li{
+  line-height: 200%;
+
+}
+header .nolist li a{
+  color:rgb(139,139,139);
+
+}
+
+.h1span{
+  width: 63%;
+  margin-bottom: 0;
+}
+span.h1span{
+  float: left;
+}
+.activision{
+  width:40%;
+  height: 25%;
+  float: left;
+}
+.wide40 h2{
+  margin: 1% 0;
+}
+.wide40{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-top: -7.5%;
+}
+.block3{
+  clear: both;
+  margin-left: 17%;
+}
+h5{
+  margin-left: 3.5%;
+}
+.a1{
+  width:33%;
+  line-height: 140%;
+  float: left;
+  margin-bottom: -1%;
+  
+}
+
+.a1 img{
+  width:70%;
+  margin: 5%;
+}
+.a1 h2{
+  padding-right: 5%;
+}
+.a1 p{
+  color: rgb(139,139,139);
+}/*
+.a1 p{
+  width:80%;
+  margin: 5%;
+}
+
+.a1 span{
+  margin-left: 5%;
+}
+*/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

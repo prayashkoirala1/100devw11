@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+header, footer{
+    height: 110px;
+    clear: left;
+}
+.f{
+    height: 170px;
+    width: 33.3333%;
+    border: 2px solid black;
+    float: left;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+#a, #b, #d{
+    border-right: none;
+}
+#a, #d{
+    border-left: none;
+}
+#c, #e{
+    border-right: none;
+}
+.g{
+    height: 250px;
+    width: 50%;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+}
