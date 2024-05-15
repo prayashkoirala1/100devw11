@@ -25,19 +25,143 @@ body {
 
 }
 .boxout{
-  height: 500px;
+  height: 700px;
   width: 100%;
   float: left;
-  border: 2px solid black;
 }
 .boxin{
-  height: 500px;
-  width: 25%;
+  padding-top: 30px;
   float: left;
-  border: solid 2px black;
+  margin: 0 3%;
+} 
+.boxin img{
+  width: 143px;
+  height: 160px;
 }
+main{
+  background-image: url("q1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5{
+  color:#f5ae61;
+}
+.boxout:nth-child(2){
+  background-image: url("q2.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boxout:nth-child(3){
+  background-color: #f2f6f7;
+}
+.boxout:nth-child(4){
+  background-image: url("cup.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height:850px;
+}
+.boxout:nth-child(5){
 
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  font: 700 black ;
+  padding: 2%;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+nav ul {
+  margin-left: 30%;
+}
+h1{
+  width: 40%;
+  font-size: 4em;
+}
+.welcome{
+  padding: 50px 5%;
 
+}
+.fb{
+  padding-top: 5px;
+  width: 15%;
+}
+.boxout:nth-child(2){
+  padding: 0 20% 0 40%;
+}
+.boxout:nth-child(2) p{
+  text-align: justify;
+}
+.boxout:nth-child(3){
+  padding: 10%;
+}
+.boxout:nth-child(3) ul li {
+  display: inline;
+  list-style: none;
+  font: 700 black ;
+  padding: 2%;
+  margin: 0;
+  
+}
+.boxout:nth-child(3) ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.box3{
+  text-align: center;
+}
+.box3:first-child{
+  margin-top: -80px;
+  margin-bottom: 10px;
+}
+.head2, h2{
+  font-size: 40px;
+  text-align: center;
+}
+.food ul {
+  text-align: center;
+  padding-right: 5%;
+}
+.food ul li a:hover{
+  color: #f5ae61;
+}
+#num{
+  color: #f5ae61;
+  font-size: 30px;
+}
+.yt{
+  float: left;
+  margin-left: 24%;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.yt:nth-child(2){
+  margin-left: 10%;
+}
+#call{
+  border-radius: 45%;
+}
+.boxout:last-child p{
+  margin : auto 5%;
+}
+#john{
+  border-radius: 60%;
+}
+@media screen and (max-width:790px) {
+  .boxout{
+    height: 1000px;
+  }
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
